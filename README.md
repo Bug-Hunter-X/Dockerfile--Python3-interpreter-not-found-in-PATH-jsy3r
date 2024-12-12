@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Dockerfiles when installing Python and running a Python application. The issue arises because the newly installed Python3 executable may not be automatically added to the system's PATH environment variable. The solution involves explicitly adding the Python3 directory to the PATH.
